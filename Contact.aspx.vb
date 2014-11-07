@@ -32,7 +32,7 @@ Partial Class _Contact
         confirmSent.Text = "Thank you.  Your message has been sent."
 
         'After the message has displayed for 2 seconds, "reload" the page.
-        Response.AddHeader("REFRESH", "2;URL=default.aspx")
+        Response.AddHeader("REFRESH", "2;URL=Home.aspx")
 
 
     End Sub
