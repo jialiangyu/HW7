@@ -23,7 +23,7 @@
         
                 <li><a href="Viewalladmin.aspx">All Classmates</a></li>
                 <li><a href="Newpeople.aspx">Add New</a></li>
-                <li><a href="../Home.aspx">Back Home</a></li>
+                <li><a href="../Default.aspx">Back Home</a></li>
             </ul>
             <p>
                 <asp:Label ID="Label1" runat="server" Text="Date:"></asp:Label>
