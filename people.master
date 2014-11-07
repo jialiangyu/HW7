@@ -25,7 +25,7 @@
                 <li><a href="Search.aspx">Search</a></li>
                 <li><a href="About.aspx">About</a></li>
                 <li><a href="Contact.aspx">Contact</a></li>
-                <li><a href="./login/login.aspx">Login</a></li>
+                <li><a href="login.aspx">Login</a></li>
             </ul>
             <p>
                 <asp:Label ID="Label1" runat="server" Text="Date:"></asp:Label>

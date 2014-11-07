@@ -25,7 +25,7 @@
                 <li><a href="Home.aspx">Home</a></li>
                 <li><a href="Viewall.aspx">All Classmates</a></li>
                 <li><a href="Search.aspx">Search</a></li>
-                <li><a href="Aboutus.aspx">About</a></li>
+                <li><a href="About.aspx">About</a></li>
                 <li><a href="Contact.aspx">Contact</a></li>
                 <li><a href="Admin.aspx">Admin</a></li>
                 <li><a href="Login.aspx">Login</a></li>
