@@ -20,13 +20,10 @@
 
         <div id="menu">
             <ul id="nav">
-                <li><a href="Home.aspx">Home</a></li>
-                <li><a href="Viewall.aspx">All Classmates</a></li>
-                <li><a href="Search.aspx">Search</a></li>
-                <li><a href="Aboutus.aspx">AboutUs</a></li>
-                <li><a href="Contact.aspx">ContactUs</a></li>
-                <li><a href="Admin.aspx">Admin</a></li>
-                <li><a href="Login.aspx">Login</a></li>
+        
+                <li><a href="Viewalladmin.aspx">All Classmates</a></li>
+                <li><a href="Search.aspx">Search</a></li> 
+                <li><a href="Newpeople.aspx">Add New</a></li>
             </ul>
         </div>
         <div id="main">
