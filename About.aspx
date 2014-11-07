@@ -4,6 +4,15 @@
     Classmates  -  I have many beautiful and handsome classmates!
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="contentplaceholder1" Runat="Server">
-    There are the detail about my classmates! They are all very good guys (including Mike!). 
+    There are the detail about my classmates! They are all very good guys (including Mike!).<br />
+    Designer: Jialiang<br />
+    Host: Jialiang<br />
+    Programer: Jialiang<br />
+    Pet: Jialiang<br />
+    <br />
+    <br />
+    <br />
+    <br />
+&nbsp; 
 </asp:Content>
 
