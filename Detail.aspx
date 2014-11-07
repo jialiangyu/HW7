@@ -31,7 +31,7 @@
         </asp:SqlDataSource>
         <br />
         <br />
-        <asp:DetailsView ID="DetailsView1" runat="server" DataSourceID="SqlDataSource1" Height="50px" Width="125px" AutoGenerateRows="False" DataKeyNames="id" HorizontalAlign="Center">
+        <asp:DetailsView ID="DetailsView1" runat="server" DataSourceID="SqlDataSource1" Height="50px" Width="266px" AutoGenerateRows="False" DataKeyNames="id" HorizontalAlign="Center">
             <Fields>
                 <asp:BoundField DataField="name" HeaderText="name" SortExpression="name" />
                 <asp:BoundField DataField="gender" HeaderText="gender" SortExpression="gender" />
