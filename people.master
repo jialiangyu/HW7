@@ -1,0 +1,45 @@
+﻿<%@ Master Language="VB" CodeFile="people.master.vb" Inherits="people" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    </title>
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div id="header">
+            <h1>My Classmates</h1>
+            <h3>I have many beautiful and handsome classmates</h3>
+            </div>
+
+        <div id="menu">
+            <ul id="nav">
+                <li><a href="Home.aspx">Home</a></li>
+                <li><a href="Viewall.aspx">All Classmates</a></li>
+                <li><a href="Search.aspx">Search</a></li>
+                <li><a href="Aboutus.aspx">AboutUs</a></li>
+                <li><a href="Contact.aspx">ContactUs</a></li>
+                <li><a href="Admin.aspx">Admin</a></li>
+                <li><a href="Login.aspx">Login</a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <asp:ContentPlaceHolder ID="contentplaceholder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="footer">
+            &copy; 2013 MSCI:3300 - Software Design and Development
+        </div>
+    
+    </div>
+    </form>
+</body>
+</html>
