@@ -5,7 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="contentplaceholder1" Runat="Server">
 
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:db_stateFacts %>"  SelectCommand="SELECT * FROM [jyu6_HW7]" DeleteCommand="DELETE FROM [jyu6_HW7] WHERE [id] = @id" InsertCommand="INSERT INTO [jyu6_HW7] ([name], [gender], [age], [skills], [habits], [notes]) VALUES (@name, @gender, @age, @skills, @habits, @notes)" UpdateCommand="UPDATE [jyu6_HW7] SET [name] = @name, [gender] = @gender, [age] = @age, [skills] = @skills, [habits] = @habits, [notes] = @notes WHERE [id] = @id" >
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:db_stateFacts %>"  SelectCommand="SELECT * FROM [jyu6_HW7] WHERE ([id] = @id)" DeleteCommand="DELETE FROM [jyu6_HW7] WHERE [id] = @id" InsertCommand="INSERT INTO [jyu6_HW7] ([name], [gender], [age], [skills], [habits], [notes]) VALUES (@name, @gender, @age, @skills, @habits, @notes)" UpdateCommand="UPDATE [jyu6_HW7] SET [name] = @name, [gender] = @gender, [age] = @age, [skills] = @skills, [habits] = @habits, [notes] = @notes WHERE [id] = @id" >
          
             <DeleteParameters>
                 <asp:Parameter Name="id" Type="Int32" />
@@ -18,6 +18,9 @@
                 <asp:Parameter Name="habits" Type="String" />
                 <asp:Parameter Name="notes" Type="String" />
             </InsertParameters>
+            <SelectParameters>
+                <asp:QueryStringParameter Name="id" QueryStringField="id" Type="Int32" />
+            </SelectParameters>
             <UpdateParameters>
                 <asp:Parameter Name="name" Type="String" />
                 <asp:Parameter Name="gender" Type="String" />
@@ -29,7 +32,6 @@
             </UpdateParameters>
            
         </asp:SqlDataSource>
-        <br />
         <br />
         <asp:DetailsView ID="DetailsView1" runat="server" DataSourceID="SqlDataSource1" Height="50px" Width="266px" AutoGenerateRows="False" DataKeyNames="id" HorizontalAlign="Center">
             <Fields>
